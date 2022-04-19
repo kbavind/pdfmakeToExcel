@@ -1,0 +1,50 @@
+<div class="container">
+  <!-- <table>
+    <thead>
+      <tr>
+        <th>No</th>
+        <th>Date</th>
+        <th>Inv No</th>
+        <th>Your Ref</th>
+        <th>Doc No.</th>
+        <th>Customer</th>
+        <th>Acct Code</th>
+        <th>Credit Term</th>
+        <th>Due</th>
+        <th>BillCycle</th>
+        <th>Handler</th>
+        <th>Nett</th>
+        <th>Paid</th>
+        <th>Balance</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let contents of content">
+      <tr>
+        <td>{{contents.no}}</td>
+        <td>{{contents.date}}</td>
+        <td>{{contents.invNo}}</td>
+        <td>{{contents.yourRef}}</td>
+        <td>{{contents.docNo}}</td>
+        <td>{{contents.customer}}</td>
+        <td>{{contents.acctCode}}</td>
+        <td>{{contents.creditTerm}}</td>
+        <td>{{contents.due}}</td>
+        <td>{{contents.billCycle}}</td>
+        <td>{{contents.handler}}</td>
+        <td>{{contents.nett}}</td>
+        <td>{{contents.paid}}</td>
+        <td>{{contents.balance}}</td>
+      </tr>
+    </tbody>
+  </table>
+  <button type="button" class=" buttonhh" (click)= "pdf()">Download PDF</button>
+  <span></span>
+  <button type="button" class=" buttonhh" (click)= "excel()">Download Excel</button>
+  <button type="button" class=" buttonhh" (click)= "exportExcel()">Download EXL</button>download using file-saver -->
+  <button type="button" class=" buttonhh" (click)= "generatePdf()">Download PDF</button>
+  <br>
+  <button type="button" class=" buttonhh" (click)= "generateExcel()">Download Excel</button>
+  <!-- <button type="button" class=" button savePdf" (click)= "printPdf()"><p style="font-size: medium;">Download PDF</p></button> -->
+
+</div>
+<router-outlet></router-outlet>

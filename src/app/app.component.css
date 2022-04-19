@@ -1,0 +1,50 @@
+span {
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+table, td, th {
+    border: 0.5px solid;
+  }
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+.button {
+    padding: 8px 14px;
+    color: #fff;
+    /* border: none;
+    outline: none; */
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.saveExl {
+    background-color: #4CAF50;
+    color: black; 
+}
+.saveExl:hover {
+    background-color: rgb(12, 68, 2); 
+    color: whitesmoke;
+}
+.savePdf{
+    background-color: #f44336;
+    color: black;  
+}
+.savePdf:hover {
+    background-color: rgb(90, 2, 2); 
+    color: whitesmoke;
+}
+.buttonhh {
+    border: none;
+    color: rgb(52, 221, 243);
+    background-color: #02374d;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
